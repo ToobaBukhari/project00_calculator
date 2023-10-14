@@ -1,6 +1,9 @@
+#! /usr/bin/env node
 import inquirer from 'inquirer';
 
 async function calculator() {
+  console.log('Welcome to the Calculator App!\n');
+
   const questions = [
     {
       type: 'input',
@@ -60,4 +63,3 @@ async function calculator() {
 }
 
 calculator();
-
